@@ -1,0 +1,6 @@
+/bin/
+/lib/
+/config/
+.*class
+/Browsers/
+/logfile.log

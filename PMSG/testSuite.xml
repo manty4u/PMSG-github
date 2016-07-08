@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "pmsg">
+	<test name = "sample">
+		<classes>
+			<class name = "tc.TS_LoginAsPSO"></class>
+			<class name = "tc.TS_LoginAsPSO2"> </class>
+			<class name = "tc.TS_CreateProject"> </class>
+			
+		</classes>
+	</test>
+</suite>
