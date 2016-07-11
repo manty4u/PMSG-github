@@ -8,8 +8,8 @@ public class EnvironmentSetUp extends Constant{
 	public static void environmentSetUp(){
 		
 		strBrowser = "firefox";	 /*change it to "chrome" or "ie" as required*/
-		strChromeDriverPath = "H:\\I2M Selenium\\PMSG\\Browsers\\";
-		strIEDriverPath = "H:\\I2M Selenium\\PMSG\\Browsers\\";
+		strChromeDriverPath = System.getProperty("user.dir") + "\\Browsers\\";
+		strIEDriverPath = System.getProperty("user.dir") + "\\Browsers\\";
 		
 		strEnvironment = "Test";	/*Change it to Test or Acc or Prod  As you want it to be appeared in report*/
 		strAppURL = "https://pww.tst.clarity.philips.com/login";   /*Test environment URL*/
