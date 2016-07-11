@@ -20,7 +20,7 @@ public class TS_CreateProject  extends Base {
 			.assignAuthor("Saurav")
 			.assignCategory("E2E");		
 	
-		Excel.excel(Constant.strDataSheetPath,"demo");
+		Excel.excel(Constant.strDataSheetPath,"createProject");
 	}
 	
 
@@ -50,6 +50,3 @@ public class TS_CreateProject  extends Base {
 	}
 	
 }
-
-
-

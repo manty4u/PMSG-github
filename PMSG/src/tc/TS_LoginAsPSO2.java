@@ -12,7 +12,7 @@ public class TS_LoginAsPSO2 extends Base{
 	
 	@BeforeMethod
 	public void openBrowser() throws Throwable{
-		System.out.println("BeforeMethod2");
+		System.out.println("BeforeMethod");
 		strTCName = getTestCaseName(this.toString());
 		configureReporterLog();
 		
@@ -36,7 +36,3 @@ public class TS_LoginAsPSO2 extends Base{
 	}
 		
 }
-
-
-
-
