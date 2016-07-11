@@ -13,7 +13,7 @@ public class TS_LoginAsPSO extends Base {
 	@BeforeMethod
 	public void initializeTest() throws Throwable{
 		
-		System.out.println("BeforeMethod1");
+		System.out.println("BeforeMethod");
 		strTCName = getTestCaseName(this.toString());
 		configureReporterLog();
 		
@@ -38,6 +38,3 @@ public class TS_LoginAsPSO extends Base {
 	}
 	
 }
-
-
-
