@@ -12,7 +12,8 @@ public class TS_CreateProject  extends Base {
 	
 	@BeforeMethod
 	public void initializeTest() throws Throwable{
-		System.out.println("BeforeMethod2");
+
+		System.out.println("BeforeMethod");
 		strTCName = getTestCaseName(this.toString());
 		configureReporterLog();
 
